@@ -119,5 +119,3 @@ def extract_dataset(json_description_dataset, output_dir):
 	loop = asyncio.get_event_loop()
 	loop.run_until_complete(wait_with_progressbar(corountines))
 	loop.close()
-
-	
